@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d74a4031-9eb7-4e39-b71c-b9a90aa8bfe0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/gloVal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/mg_female_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_ev_restrict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_qa_operlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_qa_opersave.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_qa_result_current.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/ty_female_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtest_Report_BS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send_Mail.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_login_auth_login_test01.coverage" NAME="Unittests for test_auth_login.auth_login.test01 Coverage Results" MODIFIED="1561457073612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test01.coverage" NAME="Unittests for test_ev_count.ev_count.test01 Coverage Results" MODIFIED="1561452796322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test03.coverage" NAME="Unittests for test_ev_count.ev_count.test03 Coverage Results" MODIFIED="1561452848263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
+    <SUITE FILE_PATH="coverage/test_flins_api$gloVal.coverage" NAME="gloVal Coverage Results" MODIFIED="1561449064408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_breast_api/TestCase" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count.coverage" NAME="Unittests for test_ev_count.ev_count Coverage Results" MODIFIED="1561449777354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test02.coverage" NAME="Unittests for test_ev_count.ev_count.test02 Coverage Results" MODIFIED="1561449738855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_captcha_auth_captcha.coverage" NAME="Unittests for test_auth_captcha.auth_captcha Coverage Results" MODIFIED="1561456812132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_login_auth_login.coverage" NAME="Unittests for test_auth_login.auth_login Coverage Results" MODIFIED="1561457176985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$demo.coverage" NAME="demo Coverage Results" MODIFIED="1561453637437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_captcha_auth_captcha_test02.coverage" NAME="Unittests for test_auth_captcha.auth_captcha.test02 Coverage Results" MODIFIED="1561455660172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1561452901887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_flins_api$mg_female_data.coverage" NAME="mg_female_data Coverage Results" MODIFIED="1561449079083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_breast_api/TestCase" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_auth_captcha_py.coverage" NAME="Unittests in test_auth_captcha.py Coverage Results" MODIFIED="1561455527358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test04.coverage" NAME="Unittests for test_ev_count.ev_count.test04 Coverage Results" MODIFIED="1561452872376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_captcha_auth_captcha_test01.coverage" NAME="Unittests for test_auth_captcha.auth_captcha.test01 Coverage Results" MODIFIED="1561456840288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="690875431">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="jpg" value="2" />
+          <entry key="py" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="Python" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="5" />
+          <entry key="py" value="987" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="987" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+                <marker date="1561457174124" expanded="true" signature="155:160" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+                <marker date="1561457063168" expanded="true" signature="193:198" ph="..." />
+                <marker date="1561457063168" expanded="true" signature="310:804" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/gloVal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="C:/Python37/Lib/BSTestRunner.py" />
+        <option value="$PROJECT_DIR$/runtest_Report_BS.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/auth_captcha.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_breast/test_ev_restrict.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_breast/test_qa_operlist.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_breast/test_qa_opersave.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_breast/test_qa_result_current.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/TestCase/gloVal.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="734" />
+    <option name="y" value="87" />
+    <option name="width" value="1932" />
+    <option name="height" value="991" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="test_medbrain" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/git_repo/medbrain" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_flins_api\test_flins_api\TestCase" />
+      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_breast" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python37\Lib" />
+      <recent name="E:\git_flins_api\test_flins_api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_auth_login.auth_login">
+    <configuration name="Unittests for test_auth_captcha.auth_captcha" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth_captcha.auth_captcha&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_auth_captcha.auth_captcha.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth_captcha.auth_captcha.test01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_auth_captcha.auth_captcha.test02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth_captcha.auth_captcha.test02&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_auth_login.auth_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth_login.auth_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_auth_login.auth_login.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth_login.auth_login.test01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha" />
+      <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test01" />
+      <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test02" />
+      <item itemvalue="Python tests.Unittests for test_auth_login.auth_login" />
+      <item itemvalue="Python tests.Unittests for test_auth_login.auth_login.test01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_auth_login.auth_login" />
+        <item itemvalue="Python tests.Unittests for test_auth_login.auth_login.test01" />
+        <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test01" />
+        <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha" />
+        <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d74a4031-9eb7-4e39-b71c-b9a90aa8bfe0" name="Default Changelist" comment="" />
+      <created>1561448985002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561448985002</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_auth_captcha_auth_captcha - 2019.06.25 at 17h 59m 56s.xml">
+      <configuration name="Unittests for test_auth_captcha.auth_captcha" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_captcha_auth_captcha - 2019.06.25 at 18h 00m 12s.xml">
+      <configuration name="Unittests for test_auth_captcha.auth_captcha" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_captcha_auth_captcha_test01 - 2019.06.25 at 18h 00m 40s.xml">
+      <configuration name="Unittests for test_auth_captcha.auth_captcha.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_login_auth_login_test01 - 2019.06.25 at 18h 02m 42s.xml">
+      <configuration name="Unittests for test_auth_login.auth_login.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_login_auth_login - 2019.06.25 at 18h 03m 27s.xml">
+      <configuration name="Unittests for test_auth_login.auth_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_login_auth_login_test01 - 2019.06.25 at 18h 03m 49s.xml">
+      <configuration name="Unittests for test_auth_login.auth_login.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_login_auth_login_test01 - 2019.06.25 at 18h 04m 34s.xml">
+      <configuration name="Unittests for test_auth_login.auth_login.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_login_auth_login - 2019.06.25 at 18h 04m 49s.xml">
+      <configuration name="Unittests for test_auth_login.auth_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_login_auth_login - 2019.06.25 at 18h 05m 38s.xml">
+      <configuration name="Unittests for test_auth_login.auth_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_auth_login_auth_login - 2019.06.25 at 18h 06m 17s.xml">
+      <configuration name="Unittests for test_auth_login.auth_login" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5010846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/mg_female_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestReport/19-06-25 15_55_20result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/BSTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="743" column="7" lean-forward="true" selection-start-line="743" selection-start-column="7" selection-end-line="743" selection-end-column="7" />
+          <folding>
+            <element signature="e#3300#3315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/send_Mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#14#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_ev_restrict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_qa_operlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_qa_opersave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_qa_result_current.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <marker date="1561453771881" expanded="true" signature="66:67" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/gloVal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="336" selection-start-line="336" selection-end-line="336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+            <marker date="1561457174124" expanded="true" signature="155:160" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561457063168" expanded="true" signature="193:198" ph="..." />
+            <marker date="1561457063168" expanded="true" signature="310:804" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

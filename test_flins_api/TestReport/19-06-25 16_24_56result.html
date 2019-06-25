@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Test Report Flins</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    
+<style type="text/css" media="screen">
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 1200px;
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div class="container">
+    <div class='heading'>
+<h1>Test Report Flins</h1>
+<p><strong>Start Time:</strong> 2019-06-25 16:24:56</p>
+<p><strong>Duration:</strong> 0:00:00.347051</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>6</strong></span> <span class="text text-danger">Failure <strong>18</strong></span></p>
+
+<p class='description'>H5</p>
+</div>
+
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">Summary</span>
+<span class="label label-danger" onclick="showCase(1)">Failed</span>
+<span class="label label-default" onclick="showCase(2)">All</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>Test Group/Test case</td>
+            <th>Count</td>
+            <th>Pass</td>
+            <th>Fail</td>
+            <th>Error</td>
+            <th>View</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-success'>
+    <td>test_ev_count.ev_count</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',4)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 接口返回：{"code":"0000","desc":"请求成功","data":{"count":32627}}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test02</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 接口返回：{"code":"0000","desc":"请求成功","data":{"count":211}}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test03</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: 接口返回：{"code":"9999","desc":"系统错误,请稍后再试","data":null}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test04</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 接口返回：{"code":"9999","desc":"系统错误,请稍后再试","data":null}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr class='text text-danger'>
+    <td>test_ev_restrict.ev_restrict</td>
+    <td>5</td>
+    <td>0</td>
+    <td>5</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c2',5)">Detail</a></td>
+</tr>
+
+<tr id='ft2.1' class='none'>
+    <td class='text text-danger'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        fail</a>
+    <div id='div_ft2.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.1: 接口返回：{"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_ev_restrict.py", line 21, in test01
+    self.assertEqual("0000",response["code"],msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft2.2' class='none'>
+    <td class='text text-danger'><div class='testcase'>test02</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.2')" >
+        fail</a>
+    <div id='div_ft2.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.2: 接口返回：{"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_ev_restrict.py", line 30, in test02
+    self.assertEqual("0000", response["code"], msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft2.3' class='none'>
+    <td class='text text-danger'><div class='testcase'>test03</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.3')" >
+        fail</a>
+    <div id='div_ft2.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.3: 接口返回：{"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_ev_restrict.py", line 39, in test03
+    self.assertEqual("9999", response["code"], msg=response["desc"])
+AssertionError: '9999' != '1001'
+- 9999
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft2.4' class='none'>
+    <td class='text text-danger'><div class='testcase'>test04</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.4')" >
+        fail</a>
+    <div id='div_ft2.4' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.4: 接口返回：{"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_ev_restrict.py", line 48, in test04
+    self.assertEqual("9999", response["code"], msg=response["desc"])
+AssertionError: '9999' != '1001'
+- 9999
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft2.5' class='none'>
+    <td class='text text-danger'><div class='testcase'>test05</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.5')" >
+        fail</a>
+    <div id='div_ft2.5' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.5: 接口返回：{"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_ev_restrict.py", line 56, in test05
+    self.assertEqual("9999", response["code"], msg=response["desc"])
+AssertionError: '9999' != '1001'
+- 9999
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr class='text text-danger'>
+    <td>test_qa_operlist.qa_operlist</td>
+    <td>9</td>
+    <td>0</td>
+    <td>9</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c3',9)">Detail</a></td>
+</tr>
+
+<tr id='ft3.1' class='none'>
+    <td class='text text-danger'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        fail</a>
+    <div id='div_ft3.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.1: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 22, in test01
+    self.assertEqual("0000",response["code"],msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.2' class='none'>
+    <td class='text text-danger'><div class='testcase'>test02</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.2')" >
+        fail</a>
+    <div id='div_ft3.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.2: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 32, in test02
+    self.assertEqual("0000", response["code"], msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.3' class='none'>
+    <td class='text text-danger'><div class='testcase'>test03</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.3')" >
+        fail</a>
+    <div id='div_ft3.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.3: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 43, in test03
+    self.assertEqual("0000", response["code"], msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.4' class='none'>
+    <td class='text text-danger'><div class='testcase'>test04</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.4')" >
+        fail</a>
+    <div id='div_ft3.4' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.4: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 54, in test04
+    self.assertEqual("0000", response["code"], msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.5' class='none'>
+    <td class='text text-danger'><div class='testcase'>test05</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.5')" >
+        fail</a>
+    <div id='div_ft3.5' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.5: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 64, in test05
+    self.assertEqual("1002", response["code"], msg=response["desc"])
+AssertionError: '1002' != '1001'
+- 1002
+?    ^
++ 1001
+?    ^
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.6' class='none'>
+    <td class='text text-danger'><div class='testcase'>test06</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.6')" >
+        fail</a>
+    <div id='div_ft3.6' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.6: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 73, in test06
+    self.assertEqual("0000", response["code"], msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.7' class='none'>
+    <td class='text text-danger'><div class='testcase'>test07</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.7')" >
+        fail</a>
+    <div id='div_ft3.7' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.7: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 82, in test07
+    self.assertEqual("1002", response["code"], msg=response["desc"])
+AssertionError: '1002' != '1001'
+- 1002
+?    ^
++ 1001
+?    ^
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.8' class='none'>
+    <td class='text text-danger'><div class='testcase'>test08</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.8')" >
+        fail</a>
+    <div id='div_ft3.8' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.8: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 91, in test08
+    self.assertEqual("0000", response["code"], msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft3.9' class='none'>
+    <td class='text text-danger'><div class='testcase'>test09</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.9')" >
+        fail</a>
+    <div id='div_ft3.9' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.9: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_operlist.py", line 100, in test09
+    self.assertEqual("1002", response["code"], msg=response["desc"])
+AssertionError: '1002' != '1001'
+- 1002
+?    ^
++ 1001
+?    ^
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr class='text text-success'>
+    <td>test_qa_opersave.qa_opersave</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c4',2)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        pass</a>
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='pt4.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test02</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.2')" >
+        pass</a>
+    <div id='div_pt4.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.2: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr class='text text-danger'>
+    <td>test_qa_result_current.qa_result_current</td>
+    <td>4</td>
+    <td>0</td>
+    <td>4</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c5',4)">Detail</a></td>
+</tr>
+
+<tr id='ft5.1' class='none'>
+    <td class='text text-danger'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.1')" >
+        fail</a>
+    <div id='div_ft5.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft5.1: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_result_current.py", line 20, in test01
+    self.assertEqual("0000",response["code"],msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft5.2' class='none'>
+    <td class='text text-danger'><div class='testcase'>test02</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.2')" >
+        fail</a>
+    <div id='div_ft5.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft5.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft5.2: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_result_current.py", line 29, in test02
+    self.assertEqual("0000",response["code"],msg=response["desc"])
+AssertionError: '0000' != '1001'
+- 0000
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft5.3' class='none'>
+    <td class='text text-danger'><div class='testcase'>test03</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.3')" >
+        fail</a>
+    <div id='div_ft5.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft5.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft5.3: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_result_current.py", line 38, in test03
+    self.assertEqual("9999", response["code"], msg=response["desc"])
+AssertionError: '9999' != '1001'
+- 9999
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft5.4' class='none'>
+    <td class='text text-danger'><div class='testcase'>test04</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.4')" >
+        fail</a>
+    <div id='div_ft5.4' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft5.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft5.4: {"code":"1001","desc":"请求token失效，请重新登录","data":null}
+Traceback (most recent call last):
+  File "E:\git_flins_api\test_flins_api\TestCase\test_breast\test_qa_result_current.py", line 47, in test04
+    self.assertEqual("9999", response["code"], msg=response["desc"])
+AssertionError: '9999' != '1001'
+- 9999
++ 1001
+ : 请求token失效，请重新登录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>24</td>
+            <td class="text text-success">6</td>
+            <td class="text text-danger">18</td>
+            <td class="text text-warning">0</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+</body>
+</html>
