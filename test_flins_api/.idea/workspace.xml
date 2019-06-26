@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d74a4031-9eb7-4e39-b71c-b9a90aa8bfe0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/gloVal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/mg_female_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_ev_restrict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_qa_operlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_qa_opersave.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/test_qa_result_current.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_breast/ty_female_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtest_Report_BS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_Mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_02auth_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_03knowledgebase_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_04knowbase_condition_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_05knowbase_condition_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_06knowbase_literaturelist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_07knowbase_adliteraturelist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_08knowbase_condition_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_09knowbase_fullliteraturelist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_10knowbase_literature_browse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_11knowbase_literature_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_12knowbase_literaturel_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_13knowbase_category_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_14knowbase_category_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_15knowbase_notes_myself.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_16knowbase_notes_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_17knowbase_notes_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_18knowbase_literature_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_19knowbase_label_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_20knowbase_label_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_21knowbase_label_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_22knowbase_label_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_23knowbase_category_children.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_24-25knowbase_category_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_26knowbase_category_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_27knowbase_file_upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/gloVal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/gloVal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-06-25 16_24_56result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-06-25 16_26_55result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-06-25 16_55_02result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtest_Report_BS.py" beforeDir="false" afterPath="$PROJECT_DIR$/runtest_Report_BS.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +49,14 @@
     <SUITE FILE_PATH="coverage/test_flins_api$gloVal.coverage" NAME="gloVal Coverage Results" MODIFIED="1561449064408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_breast_api/TestCase" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count.coverage" NAME="Unittests for test_ev_count.ev_count Coverage Results" MODIFIED="1561449777354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test02.coverage" NAME="Unittests for test_ev_count.ev_count.test02 Coverage Results" MODIFIED="1561449738855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_04knowbase_condition_list_knowbase_condition_list_test01.coverage" NAME="Unittests for test_04knowbase_condition_list.knowbase_condition_list.test01 Coverage Results" MODIFIED="1561516309629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_captcha_auth_captcha.coverage" NAME="Unittests for test_auth_captcha.auth_captcha Coverage Results" MODIFIED="1561456812132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_04knowbase_condition_list_knowbase_condition_list.coverage" NAME="Unittests for test_04knowbase_condition_list.knowbase_condition_list Coverage Results" MODIFIED="1561516321362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_01auth_captcha_auth_captcha_test01.coverage" NAME="Unittests for test_01auth_captcha.auth_captcha.test01 Coverage Results" MODIFIED="1561516348731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_login_auth_login.coverage" NAME="Unittests for test_auth_login.auth_login Coverage Results" MODIFIED="1561457176985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$demo.coverage" NAME="demo Coverage Results" MODIFIED="1561453637437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_captcha_auth_captcha_test02.coverage" NAME="Unittests for test_auth_captcha.auth_captcha.test02 Coverage Results" MODIFIED="1561455660172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
-    <SUITE FILE_PATH="coverage/test_flins_api$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1561452901887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_flins_api$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1561511374635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_flins_api$mg_female_data.coverage" NAME="mg_female_data Coverage Results" MODIFIED="1561449079083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_breast_api/TestCase" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_auth_captcha_py.coverage" NAME="Unittests in test_auth_captcha.py Coverage Results" MODIFIED="1561455527358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test04.coverage" NAME="Unittests for test_ev_count.ev_count.test04 Coverage Results" MODIFIED="1561452872376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
@@ -52,26 +74,26 @@
         <counts>
           <entry key="html" value="1" />
           <entry key="jpg" value="2" />
-          <entry key="py" value="31" />
+          <entry key="py" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Image" value="2" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
-          <entry key="py" value="987" />
+          <entry key="dummy" value="28" />
+          <entry key="py" value="5010" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="987" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="5010" />
         </counts>
       </usages-collector>
     </session>
@@ -79,49 +101,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_26knowbase_category_delete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="494">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
               <folding>
-                <element signature="e#14#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="e#24#39#0" expanded="true" />
-                <marker date="1561457174124" expanded="true" signature="155:160" ph="..." />
+                <element signature="e#23#38#0" expanded="true" />
+                <marker date="1561533172151" expanded="true" signature="161:162" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_27knowbase_file_upload.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="142">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
-                <marker date="1561457063168" expanded="true" signature="193:198" ph="..." />
-                <marker date="1561457063168" expanded="true" signature="310:804" ph="..." />
+                <marker date="1561533430328" expanded="true" signature="149:150" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/gloVal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -142,7 +142,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="C:/Python37/Lib/BSTestRunner.py" />
-        <option value="$PROJECT_DIR$/runtest_Report_BS.py" />
         <option value="$PROJECT_DIR$/TestCase/test_medbrain/auth_captcha.py" />
         <option value="$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py" />
         <option value="$PROJECT_DIR$/TestCase/test_breast/test_ev_restrict.py" />
@@ -150,9 +149,40 @@
         <option value="$PROJECT_DIR$/TestCase/test_breast/test_qa_opersave.py" />
         <option value="$PROJECT_DIR$/TestCase/test_breast/test_qa_result_current.py" />
         <option value="$PROJECT_DIR$/demo.py" />
-        <option value="$PROJECT_DIR$/TestCase/gloVal.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py" />
         <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py" />
+        <option value="$PROJECT_DIR$/runtest_Report_BS.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/knowledgebase_menu.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_knowledgebase_menu.py" />
+        <option value="$PROJECT_DIR$/TestCase/gloVal.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_02auth_login.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_03knowledgebase_menu.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_04knowbase_condition_list.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_05knowbase_condition_detail.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_06knowbase_literaturelist.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_07knowbase_adliteraturelist.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_08knowbase_condition_save.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_09knowbase_fullliteraturelist.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_10knowbase_literature_browse.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_11knowbase_literature_detail.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_12knowbase_literaturel_update.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_13knowbase_category_list.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_13knowbase_category_update.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_15know_notes_myself.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_15knowbase_notes_myself.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_16knowbase_notes_update.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_17knowbase_notes_save.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_18knowbase_literature_detail.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_19knowbase_label_list.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_20knowbase_label_list.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_21knowbase_label_save.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_22knowbase_label_delete.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_23knowbase_category_children.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_24knowbase_category_save.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_26knowbase_category_delete.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_24-25knowbase_category_save.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_27knowbase_file_upload.py" />
       </list>
     </option>
   </component>
@@ -163,10 +193,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="734" />
-    <option name="y" value="87" />
-    <option name="width" value="1932" />
-    <option name="height" value="991" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1038" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,10 +240,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_medbrain" />
       <recent name="E:\git_flins_api\test_flins_api\TestCase" />
       <recent name="E:\git_flins_api\test_flins_api\TestCase\test_breast" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_flins_api\test_flins_api\TestCase" />
+      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_medbrain" />
       <recent name="C:\Python37\Lib" />
       <recent name="E:\git_flins_api\test_flins_api" />
     </key>
@@ -230,8 +263,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_auth_login.auth_login">
-    <configuration name="Unittests for test_auth_captcha.auth_captcha" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_01auth_captcha.auth_captcha.test01">
+    <configuration name="runtest_Report_BS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runtest_Report_BS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestCase.test_medbrain.test_02auth_login.auth_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_flins_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,11 +297,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth_captcha.auth_captcha&quot;" />
+      <option name="_new_target" value="&quot;TestCase.test_medbrain.test_02auth_login.auth_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_auth_captcha.auth_captcha.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_01auth_captcha.auth_captcha.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_flins_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,11 +312,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth_captcha.auth_captcha.test01&quot;" />
+      <option name="_new_target" value="&quot;test_01auth_captcha.auth_captcha.test01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_auth_captcha.auth_captcha.test02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_04knowbase_condition_list.knowbase_condition_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_flins_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,11 +327,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth_captcha.auth_captcha.test02&quot;" />
+      <option name="_new_target" value="&quot;test_04knowbase_condition_list.knowbase_condition_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_auth_login.auth_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_04knowbase_condition_list.knowbase_condition_list.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_flins_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,39 +342,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth_login.auth_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_auth_login.auth_login.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="test_flins_api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth_login.auth_login.test01&quot;" />
+      <option name="_new_target" value="&quot;test_04knowbase_condition_list.knowbase_condition_list.test01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha" />
-      <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test01" />
-      <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test02" />
-      <item itemvalue="Python tests.Unittests for test_auth_login.auth_login" />
-      <item itemvalue="Python tests.Unittests for test_auth_login.auth_login.test01" />
+      <item itemvalue="Python tests.Unittests for TestCase.test_medbrain.test_02auth_login.auth_login" />
+      <item itemvalue="Python.runtest_Report_BS" />
+      <item itemvalue="Python tests.Unittests for test_04knowbase_condition_list.knowbase_condition_list.test01" />
+      <item itemvalue="Python tests.Unittests for test_04knowbase_condition_list.knowbase_condition_list" />
+      <item itemvalue="Python tests.Unittests for test_01auth_captcha.auth_captcha.test01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_auth_login.auth_login" />
-        <item itemvalue="Python tests.Unittests for test_auth_login.auth_login.test01" />
-        <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test01" />
-        <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha" />
-        <item itemvalue="Python tests.Unittests for test_auth_captcha.auth_captcha.test02" />
+        <item itemvalue="Python tests.Unittests for test_01auth_captcha.auth_captcha.test01" />
+        <item itemvalue="Python tests.Unittests for test_04knowbase_condition_list.knowbase_condition_list" />
+        <item itemvalue="Python tests.Unittests for test_04knowbase_condition_list.knowbase_condition_list.test01" />
+        <item itemvalue="Python.runtest_Report_BS" />
+        <item itemvalue="Python tests.Unittests for TestCase.test_medbrain.test_02auth_login.auth_login" />
       </list>
     </recent_temporary>
   </component>
@@ -337,15 +377,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_auth_captcha_auth_captcha - 2019.06.25 at 17h 59m 56s.xml">
-      <configuration name="Unittests for test_auth_captcha.auth_captcha" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_auth_captcha_auth_captcha - 2019.06.25 at 18h 00m 12s.xml">
-      <configuration name="Unittests for test_auth_captcha.auth_captcha" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_auth_captcha_auth_captcha_test01 - 2019.06.25 at 18h 00m 40s.xml">
-      <configuration name="Unittests for test_auth_captcha.auth_captcha.test01" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_auth_login_auth_login_test01 - 2019.06.25 at 18h 02m 42s.xml">
       <configuration name="Unittests for test_auth_login.auth_login.test01" configurationId="tests" />
     </history-entry>
@@ -367,13 +398,22 @@
     <history-entry file="Unittests_for_test_auth_login_auth_login - 2019.06.25 at 18h 06m 17s.xml">
       <configuration name="Unittests for test_auth_login.auth_login" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_04knowbase_condition_list_knowbase_condition_list_test01 - 2019.06.26 at 10h 31m 50s.xml">
+      <configuration name="Unittests for test_04knowbase_condition_list.knowbase_condition_list.test01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_04knowbase_condition_list_knowbase_condition_list - 2019.06.26 at 10h 32m 01s.xml">
+      <configuration name="Unittests for test_04knowbase_condition_list.knowbase_condition_list" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01auth_captcha_auth_captcha_test01 - 2019.06.26 at 10h 32m 29s.xml">
+      <configuration name="Unittests for test_01auth_captcha.auth_captcha.test01" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="746" y="132" width="1038" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33537832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -438,16 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#14#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_ev_restrict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -495,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/gloVal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python37/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -526,25 +549,315 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_captcha.py">
+    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
-            <marker date="1561457174124" expanded="true" signature="155:160" ph="..." />
+            <element signature="e#14#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_auth_login.py">
+    <entry file="file://$PROJECT_DIR$/TestCase/gloVal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_02auth_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <marker date="1561457063168" expanded="true" signature="193:198" ph="..." />
-            <marker date="1561457063168" expanded="true" signature="310:804" ph="..." />
+            <marker date="1561516416014" expanded="true" signature="141:146" ph="..." />
+            <marker date="1561516416014" expanded="true" signature="276:3322" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+            <marker date="1561516420035" expanded="true" signature="155:160" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_03knowledgebase_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561516483918" expanded="true" signature="153:158" ph="..." />
+            <marker date="1561516483918" expanded="true" signature="308:1258" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_04knowbase_condition_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561516794531" expanded="true" signature="160:165" ph="..." />
+            <marker date="1561516794531" expanded="true" signature="382:865" ph="..." />
+            <marker date="1561516794531" expanded="true" signature="382:873" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_05knowbase_condition_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="45" column="72" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="45" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561516959349" expanded="true" signature="167:172" ph="..." />
+            <marker date="1561516959349" expanded="true" signature="339:1286" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_06knowbase_literaturelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="62" column="72" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="62" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561517412322" expanded="true" signature="158:159" ph="..." />
+            <marker date="1561517412322" expanded="true" signature="158:164" ph="..." />
+            <marker date="1561517412322" expanded="true" signature="327:1853" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_07knowbase_adliteraturelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="46" column="72" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="46" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561517801140" expanded="true" signature="164:1490" ph="..." />
+            <marker date="1561517801140" expanded="true" signature="317:1409" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_08knowbase_condition_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" column="72" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="45" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561518070985" expanded="true" signature="160:165" ph="..." />
+            <marker date="1561518070985" expanded="true" signature="317:1411" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_09knowbase_fullliteraturelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="72" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561518410866" expanded="true" signature="168:173" ph="..." />
+            <marker date="1561518410866" expanded="true" signature="323:779" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_10knowbase_literature_browse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="72" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561518651337" expanded="true" signature="161:700" ph="..." />
+            <marker date="1561518651337" expanded="true" signature="315:615" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_11knowbase_literature_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561518935960" expanded="true" signature="161:697" ph="..." />
+            <marker date="1561518935960" expanded="true" signature="315:614" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_12knowbase_literaturel_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="72" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561529361352" expanded="true" signature="171:176" ph="..." />
+            <marker date="1561529361352" expanded="true" signature="325:1430" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_13knowbase_category_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="22" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561529575101" expanded="true" signature="157:162" ph="..." />
+            <marker date="1561529575101" expanded="true" signature="306:605" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_14knowbase_category_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561529797124" expanded="true" signature="161:166" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_15knowbase_notes_myself.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561530029771" expanded="true" signature="156:161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_16knowbase_notes_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="24" column="72" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561530176491" expanded="true" signature="158:163" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_17knowbase_notes_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="72" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561530377259" expanded="true" signature="156:161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_18knowbase_literature_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561530908387" expanded="true" signature="162:167" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_19knowbase_label_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561531063660" expanded="true" signature="156:161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_20knowbase_label_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_21knowbase_label_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="22" column="72" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561531543449" expanded="true" signature="156:161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_22knowbase_label_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561531572834" expanded="true" signature="158:163" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_23knowbase_category_children.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="1" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561532054336" expanded="true" signature="163:168" ph="..." />
+            <marker date="1561532054336" expanded="true" signature="604:609" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_24-25knowbase_category_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_26knowbase_category_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561533172151" expanded="true" signature="161:162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_27knowbase_file_upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1561533430328" expanded="true" signature="149:150" ph="..." />
           </folding>
         </state>
       </provider>

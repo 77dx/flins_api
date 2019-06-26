@@ -23,5 +23,5 @@ def run(case_name):
 
 
 if __name__ == '__main__':
-    run('test_breast')
+    run('test_medbrain')
     # send_Mail.send_email()

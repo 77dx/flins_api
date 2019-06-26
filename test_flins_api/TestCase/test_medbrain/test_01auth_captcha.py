@@ -14,15 +14,15 @@ class auth_captcha(unittest.TestCase):
 
     #参数是token
     def test01(self):
-        url = self.url + '/auth/captcha/'
+        url = self.url + '/auth/captcha'
         data = {"token":"7c77edad75904a2f81c413dd702e4209"}
         r = requests.post(url, headers=self.header,data=json.dumps(data))
         body = r.text
-        response = json.loads(body)
+        response = json.loads(r.text)
         print('接口返回：' + body)
         #提取出来验证码token
-        global captchaToken
         captchaToken = response["data"]["captchaToken"]
+        gloVal.captchaToken = captchaToken
         self.assertEqual("0000", response["code"], msg=response['desc'])
 
 
