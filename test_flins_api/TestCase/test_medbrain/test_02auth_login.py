@@ -11,14 +11,12 @@ class auth_login(unittest.TestCase):
         self.url = gloVal.BOSS_URL
         self.header = gloVal.HEADER
 
-    #正确的用户名密码,需要验证码
+    #正确的用户名密码,无须验证码
     def test01(self):
-        url = self.url + '/auth/login/'
+        url = self.url + '/auth/login'
         data = {
-            "account": "cathy",
+            "account": "admin",
             "pwd":"0c8abdb962f042d1857c66dd26b0c87b",
-            "captchaToken":gloVal.captchaToken,
-            "captcha":"gny8"
         }
         r = requests.post(url, headers=self.header, data=json.dumps(data))
         body = r.text
@@ -96,20 +94,7 @@ class auth_login(unittest.TestCase):
         self.assertEqual("9999", response["code"], msg=response['desc'])
 
 
-    #正确的用户名和密码，需要验证码，验证码过期
-    def test07(self):
-        url = self.url + '/auth/login'
-        data = {
-            "account": "cathy",
-            "pwd":"0c8abdb962f042d1857c66dd26b0c87b",
-            "captchaToken":gloVal.captchaToken,
-            "captcha":"gny8"
-        }
-        r = requests.post(url, headers=self.header, data=json.dumps(data))
-        body = r.text
-        response = json.loads(body)
-        print('接口返回：' + body)
-        self.assertEqual("0000", response["code"], msg=response['desc'])
+
 
 
     def tearDown(self):

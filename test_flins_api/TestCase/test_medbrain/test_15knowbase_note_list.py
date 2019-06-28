@@ -5,14 +5,19 @@ import json
 from TestCase.gloVal import gloVal
 
 #查询笔记列表
-class knowbase_notes_myself(unittest.TestCase):
+class knowbase_note_list(unittest.TestCase):
     def setUp(self):
         self.url = gloVal.BOSS_URL + '/note/list'
 
 
     def test01(self):
         data = {
-            "id": 12
+            "id": 12,
+            "isOwner": True,
+            "page": {
+                    "currentPage":1,
+                    "pageSize":10
+            }
         }
         r = requests.post(self.url, headers=gloVal.HEADER, data=json.dumps(data))
         body = r.text
