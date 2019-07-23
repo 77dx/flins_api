@@ -1,10 +1,55 @@
 # -*- coding:utf-8 -*-
 
+import sys
+import importlib
+importlib.reload(sys)
 
-import os, base64
+from pdfminer.pdfparser import PDFParser,PDFDocument
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.converter import PDFPageAggregator
+from pdfminer.layout import LTTextBoxHorizontal,LAParams
+from pdfminer.pdfinterp import PDFTextExtractionNotAllowed
 
-def base64_to_image():
-    img = base64.b64decode("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")
-    fh = open("pic.jpg", "wb")
-    fh.write(img)
-    fh.close()
+'''
+ 解析pdf 文本，保存到txt文件中
+'''
+path = "E:/书籍/2019_PDF.pdf"
+def parse():
+    fp = open(path, 'rb') # 以二进制读模式打开
+    #用文件对象来创建一个pdf文档分析器
+    praser = PDFParser(fp)
+    # 创建一个PDF文档
+    doc = PDFDocument()
+    # 连接分析器 与文档对象
+    praser.set_document(doc)
+    doc.set_parser(praser)
+    # 提供初始化密码
+    # 如果没有密码 就创建一个空的字符串
+    doc.initialize()
+
+    # 检测文档是否提供txt转换，不提供就忽略
+    if not doc.is_extractable:
+        raise PDFTextExtractionNotAllowed
+    else:
+        # 创建PDf 资源管理器 来管理共享资源
+        rsrcmgr = PDFResourceManager()
+        # 创建一个PDF设备对象
+        laparams = LAParams()
+        device = PDFPageAggregator(rsrcmgr, laparams=laparams)
+        # 创建一个PDF解释器对象
+        interpreter = PDFPageInterpreter(rsrcmgr, device)
+        # 循环遍历列表，每次处理一个page的内容
+        for page in doc.get_pages(): # doc.get_pages() 获取page列表
+            interpreter.process_page(page)
+            # 接受该页面的LTPage对象
+            layout = device.get_result()
+            # 这里layout是一个LTPage对象 里面存放着 这个page解析出的各种对象 一般包括LTTextBox, LTFigure, LTImage, LTTextBoxHorizontal 等等 想要获取文本就获得对象的text属性，
+            for x in layout:
+                if (isinstance(x, LTTextBoxHorizontal)):
+                    with open("E:/书籍/a.txt", 'a') as f:
+                        result = x.get_text()
+                        print(result)
+                        f.write(result + '\n')
+
+if __name__ == '__main__':
+    parse()
