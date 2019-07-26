@@ -18,7 +18,7 @@ class pfkeyupdate(unittest.TestCase):
             "expireTime":"2019-08-21",
             "status":"1"
         }
-        r = requests.post(self.url, headers=self.header,data=data)
+        r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)

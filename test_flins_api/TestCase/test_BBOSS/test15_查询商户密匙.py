@@ -16,7 +16,7 @@ class pfkeylist(unittest.TestCase):
         data = {
              "merId": 1
         }
-        r = requests.post(self.url, headers=self.header,data=data)
+        r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)

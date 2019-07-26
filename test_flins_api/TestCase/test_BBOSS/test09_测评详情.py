@@ -13,7 +13,10 @@ class statistical(unittest.TestCase):
 
 
     def test01(self):
-        r = requests.post(self.url, headers=self.header)
+        data = {
+            "id": 1,
+        }
+        r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)

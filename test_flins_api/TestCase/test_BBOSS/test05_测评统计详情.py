@@ -12,13 +12,13 @@ class list(unittest.TestCase):
 
     def test01(self):
         data = {
-            "merId": 1,
-            "startSubmitTime": "2018-05-21",
-            "endSubmitTime": "2018-05-28",
+            "merId": "1",
+            "startSubmitTime": "",
+            "endSubmitTime": "",
             "currentPage": 1,
             "pageSize": 10
         }
-        r = requests.post(self.url, headers=self.header,data=data)
+        r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)

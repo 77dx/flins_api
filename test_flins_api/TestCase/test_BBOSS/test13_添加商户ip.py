@@ -14,10 +14,10 @@ class pfipadd(unittest.TestCase):
 
     def test01(self):
         data = {
-             "merId": 1,
+             "merId": 12,
              "ip":"192.168.5.84"
         }
-        r = requests.post(self.url, headers=self.header,data=data)
+        r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)

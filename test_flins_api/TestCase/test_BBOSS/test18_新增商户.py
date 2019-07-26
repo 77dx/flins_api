@@ -16,7 +16,7 @@ class pfiplist(unittest.TestCase):
         data = {
             "name": "我是papi"
         }
-        r = requests.post(self.url, headers=self.header,data=data)
+        r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)
