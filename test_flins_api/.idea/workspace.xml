@@ -2,42 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d74a4031-9eb7-4e39-b71c-b9a90aa8bfe0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/captcha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_28knowledge_user_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/base64_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/captcha_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/data_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/fifa.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Util/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test01_登录.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test02_测评统计列表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test03_商户列表(无分页).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test04_一级渠道列表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test05_测评统计详情.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test06_问卷统计列表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test07_问卷统计详情.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test08_测评列表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test09_测评详情.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test10_商户基本信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test11_修改商户基本信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test12_查询商户ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test13_添加商户ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test14_删除商户ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test15_查询商户密匙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test16_修改商户密匙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test17_添加商户密匙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test18_新增商户.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_BBOSS/test19_商户列表(有分页).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Util/operate_json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCase/gloVal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/gloVal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_02auth_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/atest_02auth_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_03knowledgebase_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_03know_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_04knowbase_condition_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_04know_conditiongroup_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_05knowbase_condition_detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_05know_conditiongroup_detail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_06knowbase_literaturelist.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_06know_literaturelist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_07knowbase_adliteraturelist.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_07know_adliteraturelist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_08knowbase_condition_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_08know_conditionalgroupsava.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_09knowbase_fullliteraturelist.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_09know_fullliteraturelist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_10knowbase_literature_browse.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_10know_doc_browse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_11knowbase_literature_detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_11know_doc_detail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_12knowbase_literaturel_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_12know_doc_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_13knowbase_category_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_13know_doc_category_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_14knowbase_category_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_14know_doc_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_15knowbase_note_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_15know_note_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_16knowbase_notes_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_16know_note_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_17knowbase_notes_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_17know_note_save.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_19knowbase_label_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_19know_label_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_20knowbase_label_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_20know_label_frequent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_21knowbase_label_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_21know_label_save.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_22knowbase_label_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_22know_label_delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_23knowbase_category_children.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_23know_category_childrens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_24-25knowbase_category_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_24-25know_category_save.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_26knowbase_category_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_26know_category_delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/test_27knowbase_file_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/test_27know_doc_upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/atest_02auth_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_medbrain/atest_02auth_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_medbrain/captcha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-01 17_15_54result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-02 08_13_09result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-02 08_50_32result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-02 08_52_08result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-02 08_53_19result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-02 08_56_12result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-02 08_57_31result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/19-07-02 09_00_04result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Util/fifa.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Util/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Util/convert_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtest_Report_BS.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,32 +55,47 @@
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_11know_doc_detail_py.coverage" NAME="Unittests in test_11know_doc_detail.py Coverage Results" MODIFIED="1561968499234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_05know_conditiongroup_detail_know_conditiongroup_detail_test03.coverage" NAME="Unittests for test_05know_conditiongroup_detail.know_conditiongroup_detail.test03 Coverage Results" MODIFIED="1561975016684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test02.coverage" NAME="Unittests for test_ev_count.ev_count.test02 Coverage Results" MODIFIED="1561449738855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test10__py.coverage" NAME="Unittests in test10_商户详情.py Coverage Results" MODIFIED="1564126634407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_04knowbase_condition_list_knowbase_condition_list.coverage" NAME="Unittests for test_04knowbase_condition_list.knowbase_condition_list Coverage Results" MODIFIED="1561516321362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_03know_menu_py.coverage" NAME="Unittests in test_03know_menu.py Coverage Results" MODIFIED="1561972698940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_atest_02auth_login_auth_login.coverage" NAME="Unittests for atest_02auth_login.auth_login Coverage Results" MODIFIED="1563934477733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_10know_doc_browse_py.coverage" NAME="Unittests in test_10know_doc_browse.py Coverage Results" MODIFIED="1561968435355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_28knowledge_user_list_py.coverage" NAME="Unittests in test_28knowledge_user_list.py Coverage Results" MODIFIED="1562029583740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_26know_category_delete_know_category_delete_test01.coverage" NAME="Unittests for test_26know_category_delete.know_category_delete.test01 Coverage Results" MODIFIED="1561975526149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
-    <SUITE FILE_PATH="coverage/test_flins_api$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1562029204523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test13_ip_py.coverage" NAME="Unittests in test13_添加商户ip.py Coverage Results" MODIFIED="1564126762893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_boss_login_py.coverage" NAME="Unittests in test01_登录.py Coverage Results" MODIFIED="1564122991990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
+    <SUITE FILE_PATH="coverage/test_flins_api$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1563951217031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test06__py.coverage" NAME="Unittests in test06_问卷统计列表.py Coverage Results" MODIFIED="1564126479732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_05know_conditiongroup_detail_py.coverage" NAME="Unittests in test_05know_conditiongroup_detail.py Coverage Results" MODIFIED="1561975021716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test05__py.coverage" NAME="Unittests in test05_测评统计详情.py Coverage Results" MODIFIED="1564126343662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test04__py.coverage" NAME="Unittests in test04_一级渠道列表.py Coverage Results" MODIFIED="1564126250196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test03__py.coverage" NAME="Unittests in test03_商户列表.py Coverage Results" MODIFIED="1564126239810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_13know_doc_category_list_py.coverage" NAME="Unittests in test_13know_doc_category_list.py Coverage Results" MODIFIED="1561968357642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_03know_menu_know_menu_test02.coverage" NAME="Unittests for test_03know_menu.know_menu.test02 Coverage Results" MODIFIED="1561972795581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count.coverage" NAME="Unittests for test_ev_count.ev_count Coverage Results" MODIFIED="1561449777354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_23know_category_childrens_py.coverage" NAME="Unittests in test_23know_category_childrens.py Coverage Results" MODIFIED="1561969805850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_16know_note_update_py.coverage" NAME="Unittests in test_16know_note_update.py Coverage Results" MODIFIED="1561969074522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test02__py.coverage" NAME="Unittests in test02_测评统计列表.py Coverage Results" MODIFIED="1564126208382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_02auth_login_auth_login_test01.coverage" NAME="Unittests for test_02auth_login.auth_login.test01 Coverage Results" MODIFIED="1561624798992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_22know_label_delete_py.coverage" NAME="Unittests in test_22know_label_delete.py Coverage Results" MODIFIED="1561969760085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_captcha_auth_captcha.coverage" NAME="Unittests for test_auth_captcha.auth_captcha Coverage Results" MODIFIED="1561456812132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_12know_doc_update_py.coverage" NAME="Unittests in test_12know_doc_update.py Coverage Results" MODIFIED="1561968929613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_04know_conditiongroup_list_know_conditiongroup_list_test01.coverage" NAME="Unittests for test_04know_conditiongroup_list.know_conditiongroup_list.test01 Coverage Results" MODIFIED="1561972934548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_login_auth_login.coverage" NAME="Unittests for test_auth_login.auth_login Coverage Results" MODIFIED="1561457176985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_pf_ev_statistical_py.coverage" NAME="Unittests in test02_测评统计列表.py Coverage Results" MODIFIED="1564122741590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$captcha_word.coverage" NAME="captcha_word Coverage Results" MODIFIED="1561710158487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Util" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_03know_menu_know_menu_test03.coverage" NAME="Unittests for test_03know_menu.know_menu.test03 Coverage Results" MODIFIED="1561972817988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$data_visualization.coverage" NAME="data_visualization Coverage Results" MODIFIED="1562813300730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Util" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_07know_adliteraturelist_knowbase_adliteraturelist_test01.coverage" NAME="Unittests for test_07know_adliteraturelist.knowbase_adliteraturelist.test01 Coverage Results" MODIFIED="1561975213059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_17know_note_save_py.coverage" NAME="Unittests in test_17know_note_save.py Coverage Results" MODIFIED="1561969129394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test15__py.coverage" NAME="Unittests in test15_查询商户密匙.py Coverage Results" MODIFIED="1564126785651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_login_auth_login_test01.coverage" NAME="Unittests for test_auth_login.auth_login.test01 Coverage Results" MODIFIED="1561457073612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test11__py.coverage" NAME="Unittests in test11_修改商户信息.py Coverage Results" MODIFIED="1564126694068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_atest_02auth_login_py.coverage" NAME="Unittests in atest_02登录.py Coverage Results" MODIFIED="1563951917774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test17__py.coverage" NAME="Unittests in test17_添加商户密匙.py Coverage Results" MODIFIED="1564127241511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test01.coverage" NAME="Unittests for test_ev_count.ev_count.test01 Coverage Results" MODIFIED="1561452796322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_15knowbase_note_list_py.coverage" NAME="Unittests in test_15knowbase_note_list.py Coverage Results" MODIFIED="1561968959673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$operate_json.coverage" NAME="operate_json Coverage Results" MODIFIED="1563940961604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Util" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_04know_conditiongroup_list_py.coverage" NAME="Unittests in test_04know_conditiongroup_list.py Coverage Results" MODIFIED="1561972987299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_05know_conditiongroup_detail_know_conditiongroup_detail_test02.coverage" NAME="Unittests for test_05know_conditiongroup_detail.know_conditiongroup_detail.test02 Coverage Results" MODIFIED="1561974976561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_02auth_login_auth_login.coverage" NAME="Unittests for test_02auth_login.auth_login Coverage Results" MODIFIED="1561624734922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
@@ -92,12 +108,17 @@
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test04.coverage" NAME="Unittests for test_ev_count.ev_count.test04 Coverage Results" MODIFIED="1561452872376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_auth_captcha_auth_captcha_test01.coverage" NAME="Unittests for test_auth_captcha.auth_captcha.test01 Coverage Results" MODIFIED="1561456840288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_09know_fullliteraturelist_know_fullliteraturelist_test01.coverage" NAME="Unittests for test_09know_fullliteraturelist.know_fullliteraturelist.test01 Coverage Results" MODIFIED="1561975462874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test07__py.coverage" NAME="Unittests in test07_问卷统计详情.py Coverage Results" MODIFIED="1564126591540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test08__py.coverage" NAME="Unittests in test08_测评列表.py Coverage Results" MODIFIED="1564126617418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_05know_conditiongroup_detail_know_conditiongroup_detail_test01.coverage" NAME="Unittests for test_05know_conditiongroup_detail.know_conditiongroup_detail.test01 Coverage Results" MODIFIED="1561974952716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test09__py.coverage" NAME="Unittests in test09_测评详情.py Coverage Results" MODIFIED="1564126625495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_ev_count_ev_count_test03.coverage" NAME="Unittests for test_ev_count.ev_count.test03 Coverage Results" MODIFIED="1561452848263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_breast" />
     <SUITE FILE_PATH="coverage/test_flins_api$gloVal.coverage" NAME="gloVal Coverage Results" MODIFIED="1561449064408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_breast_api/TestCase" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_02auth_login_auth_login_test04.coverage" NAME="Unittests for test_02auth_login.auth_login.test04 Coverage Results" MODIFIED="1561964710920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_01auth_captcha_auth_captcha_test02.coverage" NAME="Unittests for test_01auth_captcha.auth_captcha.test02 Coverage Results" MODIFIED="1561972121295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test12_ip_py.coverage" NAME="Unittests in test12_查询商户ip.py Coverage Results" MODIFIED="1564126733668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_BBOSS" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_19know_label_list_py.coverage" NAME="Unittests in test_19know_label_list.py Coverage Results" MODIFIED="1561969211058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
+    <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_atest_02auth_login_auth_login_test01.coverage" NAME="Unittests for atest_02auth_login.auth_login.test01 Coverage Results" MODIFIED="1563934713573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_in_test_20know_label_frequent_py.coverage" NAME="Unittests in test_20know_label_frequent.py Coverage Results" MODIFIED="1561969585726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_04knowbase_condition_list_knowbase_condition_list_test01.coverage" NAME="Unittests for test_04knowbase_condition_list.knowbase_condition_list.test01 Coverage Results" MODIFIED="1561516309629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
     <SUITE FILE_PATH="coverage/test_flins_api$Unittests_for_test_27know_doc_upload_know_doc_upload_test01.coverage" NAME="Unittests for test_27know_doc_upload.know_doc_upload.test01 Coverage Results" MODIFIED="1561975730905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase/test_medbrain" />
@@ -113,55 +134,84 @@
         <counts>
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="3" />
-          <entry key="html" value="1" />
-          <entry key="jpg" value="39" />
-          <entry key="py" value="161" />
+          <entry key="html" value="2" />
+          <entry key="jpg" value="42" />
+          <entry key="json" value="1" />
+          <entry key="py" value="277" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="1" />
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="39" />
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="42" />
+          <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="161" />
+          <entry key="Python" value="277" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="71" />
-          <entry key="py" value="6504" />
+          <entry key="dummy" value="139" />
+          <entry key="json" value="84" />
+          <entry key="py" value="8274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="71" />
-          <entry key="Python" value="6504" />
+          <entry key="JSON" value="84" />
+          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="Python" value="8274" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Util/data_visualization.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test09_测评详情.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="361">
+              <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding>
-                <element signature="e#23#42#0" expanded="true" />
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test17_添加商户密匙.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="26" lean-forward="true" selection-end-line="38" selection-end-column="19" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test19_商户列表(有分页).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,36 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_11knowbase_literature_detail.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_12knowbase_literaturel_update.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_13knowbase_category_list.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_13knowbase_category_update.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_15know_notes_myself.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_16knowbase_notes_update.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_17knowbase_notes_save.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_18knowbase_literature_detail.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_19knowbase_label_list.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_20knowbase_label_list.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_21knowbase_label_save.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_22knowbase_label_delete.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_23knowbase_category_children.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_24knowbase_category_save.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_26knowbase_category_delete.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_24-25knowbase_category_save.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_27knowbase_file_upload.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_15knowbase_notes_myself.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_15knowbase_note_list.py" />
-        <option value="$PROJECT_DIR$/Util/captcha_word.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_02auth_login.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_03knowledgebase_menu.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_08knowbase_condition_save.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_03know_menu.py" />
-        <option value="$PROJECT_DIR$/TestCase/gloVal.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_04know_conditiongroup_list.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_05know_conditiongroup_detail.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_06know_literaturelist.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_07know_adliteraturelist.py" />
         <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_08know_conditionalgroupsava.py" />
         <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_09know_fullliteraturelist.py" />
         <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_10know_doc_browse.py" />
@@ -233,6 +253,36 @@
         <option value="$PROJECT_DIR$/TestCase/test_medbrain/test_28knowledge_user_list.py" />
         <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/Util/data_visualization.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/JSData.json" />
+        <option value="$PROJECT_DIR$/Util/operate_json.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test_boss_login.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_medbrain/atest_02auth_login.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test_pf_ev_statistical.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test03_pf_list.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test06_问卷统计.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test08_测评详情查询.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test12_查询商户.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test01_登录.py" />
+        <option value="$PROJECT_DIR$/TestCase/gloVal.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test04_一级渠道列表.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test07_问卷统计详情.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test10_商户详情.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test06_问卷统计列表.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test02_测评统计列表.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test05_测评统计详情.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test08_测评列表.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test11_修改商户信息.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test17_添加商户密匙.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test16_修改商户密匙.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test15_查询商户密匙.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test14_删除商户ip.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test13_添加商户ip.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test12_查询商户ip.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test11_修改商户基本信息.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test10_商户基本信息.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test18_新增商户.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test09_测评详情.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_BBOSS/test19_商户列表(有分页).py" />
       </list>
     </option>
   </component>
@@ -242,9 +292,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -283,7 +333,13 @@
             <path>
               <item name="test_flins_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="test_BBOSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,23 +350,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/git_springboot/bossManage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_flins_api\test_flins_api\Util" />
+      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_medbrain" />
+      <recent name="E:\git_flins_api\test_flins_api\TestCase" />
+      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_breast" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_BBOSS" />
       <recent name="E:\git_flins_api\test_flins_api\Util" />
       <recent name="E:\git_flins_api\test_flins_api\TestCase" />
       <recent name="E:\git_flins_api\test_flins_api\TestCase\test_medbrain" />
       <recent name="C:\Python37\Lib" />
-      <recent name="E:\git_flins_api\test_flins_api" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_medbrain" />
-      <recent name="E:\git_flins_api\test_flins_api\TestCase" />
-      <recent name="E:\git_flins_api\test_flins_api\TestCase\test_breast" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -325,117 +382,96 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_visualization">
-    <configuration name="data_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test_flins_api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Util/data_visualization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test_flins_api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runtest_Report_BS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test_flins_api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runtest_Report_BS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_27know_doc_upload.know_doc_upload.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test17_添加商户密匙.py">
+    <configuration name="Unittests in test11_修改商户基本信息.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_flins_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_BBOSS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_27know_doc_upload.know_doc_upload.test01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_BBOSS/test11_修改商户基本信息.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_28knowledge_user_list.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test12_查询商户ip.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test_flins_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_medbrain" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_BBOSS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_medbrain/test_28knowledge_user_list.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_BBOSS/test12_查询商户ip.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test13_添加商户ip.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_BBOSS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_BBOSS/test13_添加商户ip.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test15_查询商户密匙.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_BBOSS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_BBOSS/test15_查询商户密匙.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test17_添加商户密匙.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test_flins_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase/test_BBOSS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_BBOSS/test17_添加商户密匙.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_27know_doc_upload.know_doc_upload.test01" />
-      <item itemvalue="Python.runtest_Report_BS" />
-      <item itemvalue="Python tests.Unittests in test_28knowledge_user_list.py" />
-      <item itemvalue="Python.demo" />
-      <item itemvalue="Python.data_visualization" />
+      <item itemvalue="Python tests.Unittests in test11_修改商户基本信息.py" />
+      <item itemvalue="Python tests.Unittests in test12_查询商户ip.py" />
+      <item itemvalue="Python tests.Unittests in test13_添加商户ip.py" />
+      <item itemvalue="Python tests.Unittests in test15_查询商户密匙.py" />
+      <item itemvalue="Python tests.Unittests in test17_添加商户密匙.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_visualization" />
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python tests.Unittests in test_28knowledge_user_list.py" />
-        <item itemvalue="Python.runtest_Report_BS" />
-        <item itemvalue="Python tests.Unittests for test_27know_doc_upload.know_doc_upload.test01" />
+        <item itemvalue="Python tests.Unittests in test17_添加商户密匙.py" />
+        <item itemvalue="Python tests.Unittests in test15_查询商户密匙.py" />
+        <item itemvalue="Python tests.Unittests in test13_添加商户ip.py" />
+        <item itemvalue="Python tests.Unittests in test12_查询商户ip.py" />
+        <item itemvalue="Python tests.Unittests in test11_修改商户基本信息.py" />
       </list>
     </recent_temporary>
   </component>
@@ -453,47 +489,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_07know_adliteraturelist_knowbase_adliteraturelist_test01 - 2019.07.01 at 17h 59m 44s.xml">
-      <configuration name="Unittests for test_07know_adliteraturelist.knowbase_adliteraturelist.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test11_修改商户信息_py - 2019.07.26 at 15h 37m 45s.xml">
+      <configuration name="Unittests in test11_修改商户信息.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_07know_adliteraturelist_knowbase_adliteraturelist_test01 - 2019.07.01 at 18h 00m 13s.xml">
-      <configuration name="Unittests for test_07know_adliteraturelist.knowbase_adliteraturelist.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test11_修改商户信息_py - 2019.07.26 at 15h 38m 14s.xml">
+      <configuration name="Unittests in test11_修改商户信息.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_08know_conditionalgroupsava_knowbase_condition_save_test01 - 2019.07.01 at 18h 02m 20s.xml">
-      <configuration name="Unittests for test_08know_conditionalgroupsava.knowbase_condition_save.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test12_查询商户ip_py - 2019.07.26 at 15h 38m 54s.xml">
+      <configuration name="Unittests in test12_查询商户ip.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_08know_conditionalgroupsava_knowbase_condition_save_test01 - 2019.07.01 at 18h 02m 39s.xml">
-      <configuration name="Unittests for test_08know_conditionalgroupsava.knowbase_condition_save.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test13_添加商户ip_py - 2019.07.26 at 15h 39m 19s.xml">
+      <configuration name="Unittests in test13_添加商户ip.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_09know_fullliteraturelist_know_fullliteraturelist_test01 - 2019.07.01 at 18h 03m 54s.xml">
-      <configuration name="Unittests for test_09know_fullliteraturelist.know_fullliteraturelist.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test13_添加商户ip_py - 2019.07.26 at 15h 39m 23s.xml">
+      <configuration name="Unittests in test13_添加商户ip.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_09know_fullliteraturelist_know_fullliteraturelist_test01 - 2019.07.01 at 18h 04m 23s.xml">
-      <configuration name="Unittests for test_09know_fullliteraturelist.know_fullliteraturelist.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test15_查询商户密匙_py - 2019.07.26 at 15h 39m 46s.xml">
+      <configuration name="Unittests in test15_查询商户密匙.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_26know_category_delete_know_category_delete_test01 - 2019.07.01 at 18h 05m 26s.xml">
-      <configuration name="Unittests for test_26know_category_delete.know_category_delete.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test17_添加商户密匙_py - 2019.07.26 at 15h 46m 22s.xml">
+      <configuration name="Unittests in test17_添加商户密匙.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_27know_doc_upload_know_doc_upload_test01 - 2019.07.01 at 18h 08m 29s.xml">
-      <configuration name="Unittests for test_27know_doc_upload.know_doc_upload.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test17_添加商户密匙_py - 2019.07.26 at 15h 46m 41s.xml">
+      <configuration name="Unittests in test17_添加商户密匙.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_27know_doc_upload_know_doc_upload_test01 - 2019.07.01 at 18h 08m 51s.xml">
-      <configuration name="Unittests for test_27know_doc_upload.know_doc_upload.test01" configurationId="tests" />
+    <history-entry file="Unittests_in_test17_添加商户密匙_py - 2019.07.26 at 15h 47m 03s.xml">
+      <configuration name="Unittests in test17_添加商户密匙.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_28knowledge_user_list_py - 2019.07.02 at 09h 06m 24s.xml">
-      <configuration name="Unittests in test_28knowledge_user_list.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test17_添加商户密匙_py - 2019.07.26 at 15h 47m 21s.xml">
+      <configuration name="Unittests in test17_添加商户密匙.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="15" width="1400" height="1000" extended-state="0" />
+    <frame x="545" y="143" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13656716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21268657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905483" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34924078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32794458" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47690532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,226 +554,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/send_Mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_ev_restrict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_qa_operlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_qa_opersave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_qa_result_current.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pic.jpg" />
-    <entry file="file://C:/Python37/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="347" selection-start-line="347" selection-end-line="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="336" selection-start-line="336" selection-end-line="336" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_breast/test_ev_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Util/base64_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="6" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="303" selection-start-line="303" selection-end-line="303" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/unittest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Util/captcha_word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_18knowbase_literature_detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="72" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/captcha.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/atest_02auth_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="679" selection-start-line="679" selection-end-line="679" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/gloVal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_03know_menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_04know_conditiongroup_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_05know_conditiongroup_detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_06know_literaturelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_07know_adliteraturelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_08know_conditionalgroupsava.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_09know_fullliteraturelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_10know_doc_browse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_11know_doc_detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_12know_doc_update.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
@@ -842,23 +659,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+    <entry file="file://$PROJECT_DIR$/Util/fifa.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Util/fifa.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
         </state>
       </provider>
       <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/captcha_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/base64_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,6 +695,283 @@
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/convert_pdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/operate_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <marker date="1563946612286" expanded="true" signature="56:57" ph="..." />
+            <marker date="1563946612286" expanded="true" signature="56:397" ph="..." />
+            <marker date="1563946612286" expanded="true" signature="182:187" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/JSData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/captcha.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_03know_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestReport/19-07-24 14_53_40result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_12know_doc_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/test_01auth_captcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_medbrain/atest_02auth_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test01_登录.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test02_测评统计列表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1564126203899" expanded="true" signature="141:838" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test03_商户列表(无分页).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test04_一级渠道列表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/gloVal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test05_测评统计详情.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test06_问卷统计列表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="72" lean-forward="true" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test07_问卷统计详情.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test08_测评列表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test16_修改商户密匙.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test15_查询商户密匙.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test14_删除商户ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test13_添加商户ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test11_修改商户基本信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test10_商户基本信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test12_查询商户ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test18_新增商户.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test09_测评详情.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test17_添加商户密匙.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="26" lean-forward="true" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_BBOSS/test19_商户列表(有分页).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

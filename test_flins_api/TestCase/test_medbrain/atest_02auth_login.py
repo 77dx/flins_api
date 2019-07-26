@@ -2,6 +2,7 @@
 import unittest
 import requests
 import json
+from mock import mock
 from TestCase.gloVal import gloVal
 
 
@@ -13,7 +14,8 @@ class auth_login(unittest.TestCase):
 
 
     #用户名和密码为空
-    def atest01(self):
+    @unittest.skip('test01')
+    def test01(self):
         url = self.url + '/auth/login/'
         data = {
             "account": "",
@@ -23,11 +25,17 @@ class auth_login(unittest.TestCase):
         body = r.text
         response = json.loads(body)
         print('接口返回：' + body)
+
+        #case之间传递数据时，用全局变量
+        globals()['id'] = '11111'
+
         self.assertEqual("9999", response["code"], msg=response['desc'])
 
 
     #用户名不为空，密码为空
-    def atest02(self):
+    @unittest.skip('test02')
+    def test02(self):
+        print(id)
         url = self.url + '/auth/login/'
         data = {
             "account": "admin",
@@ -41,7 +49,8 @@ class auth_login(unittest.TestCase):
 
 
     #用户名为空，密码不为空
-    def atest03(self):
+    @unittest.skip('test03')
+    def test03(self):
         url = self.url + '/auth/login/'
         data = {
             "account": "",
