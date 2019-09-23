@@ -4,20 +4,21 @@ import requests
 from TestCase.gloVal import gloVal
 import json
 
+#select ifnull(sum(1),0) from ( select (if(count(1)>0,1,0)) from qa_quest_statistics where statistical_time >= ? and statistical_time <= ? group by channel_code_main ) t
 
-class statistical(unittest.TestCase):
+class Test_statistical2(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/pf/qa/statistics'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
 
     def test01(self):
 
         data = {
-            "startSubmitTime":"2018-05-21",
-            "endSubmitTime":"2018-05-28",
-            "channelCode":"huize",
+            "startSubmitTime":"",
+            "endSubmitTime":"",
+            "channelCodeMain":"aviva",
             "page": {
                     "currentPage":1,
                     "pageSize":10

@@ -5,25 +5,25 @@ from TestCase.gloVal import gloVal
 import json
 
 
-class pfipadd(unittest.TestCase):
+class Test_pfipadd(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/mer/key/add'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
 
     def test01(self):
         data = {
-            "merId": 12,
-            "secretKey": "654321",
-            "expireTime": "2019-08-21",
+            "merId": 11,
+            "secretKey": "secretKeysecretKeysecretKey",
+            "expireTime": "2099-01-01",
             "status": 1
         }
         r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)
-        self.assertEqual("0000", response["code"], msg=response['desc'])
+        self.assertEqual("1007", response["code"], msg=response['desc'])
 
 
 

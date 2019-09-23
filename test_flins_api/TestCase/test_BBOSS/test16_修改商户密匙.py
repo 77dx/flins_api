@@ -5,18 +5,18 @@ from TestCase.gloVal import gloVal
 import json
 
 
-class pfkeyupdate(unittest.TestCase):
+class Test_pfkeyupdate(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/mer/key/update'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
 
     def test01(self):
         data = {
-            "id":"1",
-            "expireTime":"2019-08-21",
-            "status":"1"
+            "id": 11,
+            "expireTime":"2018-08-21",
+            "status": 1
         }
         r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text

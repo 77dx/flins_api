@@ -5,19 +5,19 @@ from TestCase.gloVal import gloVal
 import json
 
 
-class pfupdate(unittest.TestCase):
+class Test_pfupdate(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/mer/update'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
 
     def test01(self):
         data = {
-            "id": 1,
-            "name": "再保",
-            "callbackUrl": "http://XXXXXXXXXXXXXX",
-            "status": 1
+            "id": 12,
+            "name": "中国人寿",
+            "callbackUrl": "http://www.pinan.com",
+            "status":1
         }
         r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text

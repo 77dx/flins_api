@@ -3,7 +3,7 @@ import unittest
 import json
 import requests
 from TestCase.gloVal import gloVal
-from mg_female_data import mg_female_data
+
 
 
 #获取测试题列表
@@ -41,7 +41,6 @@ class qa_operlist(unittest.TestCase):
         response = json.loads(r.text)
         print(r.text)
         self.assertEqual("0000", response["code"], msg=response["desc"])
-
 
 
     '''正确参数-甲状腺，sex=2'''
@@ -106,5 +105,4 @@ class qa_operlist(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    gloVal._init()
     unittest.main()

@@ -1,0 +1,15 @@
+---
+Login:
+  dec: login boss
+  parameters:
+    -
+      url: /boss/auth/login
+      data:
+        -
+          account: cathy
+          pwd: e10adc3949ba59abbe56e057f20f883e
+          captchaToken:
+          captcha:
+      header: {
+                 "Content-Type": "application/json;charset=UTF-8"
+              }

@@ -5,23 +5,23 @@ from TestCase.gloVal import gloVal
 import json
 
 
-class pfipadd(unittest.TestCase):
+class Test_pfipadd(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/mer/ip/add'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
 
     def test01(self):
         data = {
-             "merId": 12,
+             "merId": 13,
              "ip":"192.168.5.84"
         }
         r = requests.post(self.url, headers=self.header,data=json.dumps(data))
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)
-        self.assertEqual("0000", response["code"], msg=response['desc'])
+        self.assertEqual("1007", response["code"], msg=response['desc'])
 
 
 

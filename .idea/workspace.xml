@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9c81cb2-d083-475d-bd68-386147a072b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/Assert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/Consts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/Email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/Log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/Request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/Session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/Shell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Conf/Config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Conf/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Parameters/LoadYaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Parameters/Parameter/Login.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Parameters/Parameter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Parameters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/Parameters/params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/pytest_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/pytest_demo/raisedDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/testcase/login_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Paramters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Paramters/breast/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Paramters/breast/female.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Paramters/breast/female.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Paramters/operate_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/StartEnd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Util/read_excel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_flins_api/Util/read_excel/fifa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/.idea/test_flins_api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/gloVal.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/gloVal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test01_登录.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test01_登录.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test02_测评统计列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test02_B端测评统计列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test03_商户列表(无分页).py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test03_商户列表(无分页).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test04_一级渠道列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test04_一级渠道列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test05_测评统计详情.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test05_B端测评统计详情.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test06_问卷统计列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test06_问卷统计列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test07_问卷统计详情.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test07_问卷统计详情.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test08_测评列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test08_B端测评查询.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test09_测评详情.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test09_B端测评详情.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test10_商户基本信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test10_商户基本信息.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test11_修改商户基本信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test11_修改商户基本信息.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test12_查询商户ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test12_查询商户ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test13_添加商户ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test13_添加商户ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test14_删除商户ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test14_删除商户ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test15_查询商户密匙.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test15_查询商户密匙.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test16_修改商户密匙.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test16_修改商户密匙.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test17_添加商户密匙.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test17_添加商户密匙.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test18_新增商户.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test18_新增商户.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test19_商户列表(有分页).py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test19_商户列表(有分页).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_breast/test_qa_operlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_breast/test_qa_operlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestCase/test_breast/test_qa_opersave.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestCase/test_breast/test_qa_opersave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestReport/19-07-24 14_53_40result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestReport/19-07-26 16_11_23result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestReport/19-07-26 16_27_21result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestReport/19-07-26 16_37_32result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/TestReport/19-07-26 16_43_55result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/TestReport/19-08-01 10_38_43result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/Util/convert_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/Util/convert_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/Util/data_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/Util/read_excel/read_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/Util/operate_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/Util/operate_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flins_api/runtest_Report_BS.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flins_api/runtest_Report_BS.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1295755257">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="json" value="1" />
+          <entry key="py" value="3" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="Python" value="3" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="164" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="164" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test01_登录.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_flins_api/TestCase/pytest-allure/test01.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="262" />
+    <option name="y" value="122" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="git_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_flins_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git_flins_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="test_flins_api" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
+              <item name="test_BBOSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_flins_api" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.24850895" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9c81cb2-d083-475d-bd68-386147a072b1" name="Default Changelist" comment="" />
+      <created>1567650580284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567650580284</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21343446" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/allure-resluts/87454180-e79d-4c82-ae27-0883012f34a5-result.json" />
+    <entry file="file://$PROJECT_DIR$/test_flins_api/.idea/test_flins_api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_flins_api/TestCase/pytest-allure/test01.py" />
+    <entry file="file://$PROJECT_DIR$/test_flins_api/.idea/encodings.xml" />
+    <entry file="file://$PROJECT_DIR$/test_flins_api/TestCase/test_BBOSS/test01_登录.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

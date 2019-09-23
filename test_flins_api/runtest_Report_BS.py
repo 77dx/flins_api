@@ -25,3 +25,5 @@ def run(case_name):
 if __name__ == '__main__':
     run('test_BBOSS')
     # send_Mail.send_email()
+#pytest test.py --alluredir=/result      保存测试结果
+#allure generate results -o reports      将上面的result生成html，保存在reports

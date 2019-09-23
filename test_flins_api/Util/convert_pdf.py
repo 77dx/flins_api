@@ -13,8 +13,8 @@ from pdfminer.pdfinterp import PDFTextExtractionNotAllowed
 '''
  解析pdf 文本，保存到txt文件中
 '''
-path = "E:/书籍/2019_PDF.pdf"
-def parse():
+
+def parse(path):
     fp = open(path, 'rb') # 以二进制读模式打开
     #用文件对象来创建一个pdf文档分析器
     praser = PDFParser(fp)
@@ -46,10 +46,10 @@ def parse():
             # 这里layout是一个LTPage对象 里面存放着 这个page解析出的各种对象 一般包括LTTextBox, LTFigure, LTImage, LTTextBoxHorizontal 等等 想要获取文本就获得对象的text属性，
             for x in layout:
                 if (isinstance(x, LTTextBoxHorizontal)):
-                    with open("E:/书籍/a.txt", 'a') as f:
+                    with open("D:/a.txt", 'a') as f:
                         result = x.get_text()
                         print(result)
                         f.write(result + '\n')
 
 if __name__ == '__main__':
-    parse()
+    parse("D:/test.pdf")

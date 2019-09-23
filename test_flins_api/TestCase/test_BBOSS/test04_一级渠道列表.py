@@ -5,11 +5,11 @@ import json
 from TestCase.gloVal import gloVal
 
 
-class list(unittest.TestCase):
+class Test_lists(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/pf/channel/list'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
     #该接口无参数，只需有效token
     def test01(self):

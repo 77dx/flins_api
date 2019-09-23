@@ -3,17 +3,14 @@ import json
 
 class operateJSON():
 
-    def __init__(self):
+    def __init__(self,json_file):
 
-        self.json_data = "../TestCase/test_BBOSS/JSData.json"
+        self.json_data = json_file
         self.data = self.read_data()
 
     #读取json文件
-
-
-
     def read_data(self):
-        with open(self.json_data) as fp:
+        with open(self.json_data,'r',encoding='utf-8') as fp:
             data = json.load(fp)
             return data
 
@@ -25,6 +22,5 @@ class operateJSON():
 
 if __name__ == '__main__':
 
-    ope = operateJSON()
-    print(ope.read_data())
-    print(ope.get_data('pflist'))
+    operateJSON('E:/git_flins_api/test_flins_api/Paramters/breast/female.json')
+

@@ -1,0 +1,1 @@
+1.pycharm中，ctrl+alt+L，快速格式化json文件。

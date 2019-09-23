@@ -5,11 +5,11 @@ from TestCase.gloVal import gloVal
 import json
 
 
-class pfipadd(unittest.TestCase):
+class Test_pfipadd(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/mer/pagelist'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
 
     def test01(self):

@@ -5,18 +5,16 @@ import unittest
 from TestCase.gloVal import gloVal
 import json
 import hashlib
+from TestCase.test_BBOSS.StartEnd import unittest_StartEnd
 
 
 #登录boss，获取token
-class login(unittest.TestCase):
-
-    def setUp(self):
-        self.url = gloVal.BOSS_URL
+class Test_login(unittest_StartEnd):
 
     #获取验证码token,返回1051是不需要验证码
-    def test01(self):
+    def test_01(self):
         url = self.url + '/auth/captcha'
-        r = requests.post(url, headers={'content-type':'application/json'})
+        r = requests.post(url, headers=self.header)
         body = r.text
         response = json.loads(r.text)
         print('接口返回：' + body)
@@ -24,7 +22,7 @@ class login(unittest.TestCase):
         self.assertEqual("1051", response["code"], msg=response['desc'])
 
     # 正确的用户名和密码
-    def test02(self):
+    def test_02(self):
         if code == "1051":
             url = self.url + '/auth/login'
 
@@ -38,19 +36,13 @@ class login(unittest.TestCase):
                 "captchaToken":"",
                 "captcha": ""
             }
-            r = requests.post(url, headers={'content-type':'application/json'}, data=json.dumps(data))
+            r = requests.post(url, headers=self.header, data=json.dumps(data))
             body = r.text
             response = json.loads(body)
             #提取token
             gloVal.TOKEN = response["data"]["token"]
             print('接口返回：' + body)
             self.assertEqual("0000", response["code"], msg=response['desc'])
-
-
-
-    def tearDown(self):
-        pass
-
 
 
 if __name__ == '__main__':

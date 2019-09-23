@@ -5,18 +5,18 @@ from TestCase.gloVal import gloVal
 import json
 
 
-class statistical(unittest.TestCase):
+class Test_statistical5(unittest.TestCase):
 
     def setUp(self):
         self.url = gloVal.B_URL + '/pf/qa/statisticsdetail'
-        self.header = {'content-type': 'application/json', 'token': gloVal.TOKEN}
+        self.header = {'content-type': 'application/json', 'token': gloVal.BOSS_TOKEN}
 
 
     def test01(self):
         data = {
-            "channelCodeMain":"trussan",
-            "startSubmitTime":"2018-05-21",
-            "endSubmitTime":"2018-05-28",
+            "channelCodeMain":"aviva",
+            "startSubmitTime":"",
+            "endSubmitTime":"",
             "page": {
                     "currentPage":1,
                     "pageSize":10
