@@ -2,18 +2,17 @@
 import unittest
 import json
 import requests
-from TestCase.gloVal import gloVal
+from TestCase.test_breast.StartEnd import unittest_StartEnd
+from Paramters.operate_yml import operateYaml
 
 #查询测评限制
-class ev_restrict(unittest.TestCase):
-    def setUp(self):
-        self.url = gloVal.BASE_URL
-        self.header = gloVal.HEADER
-
+class ev_restrict(unittest_StartEnd):
 
     '''正常参数-甲状腺'''
     def test01(self):
-        data = {"type": "thyroid"}
+        datas = operateYaml().read_data()
+        data = datas["restrict"][1]["thyroid"]
+        print(data)
         url = self.url+"/ev/restrict"
         r = requests.post(url,headers = self.header,data=json.dumps(data))
         response = json.loads(r.text)

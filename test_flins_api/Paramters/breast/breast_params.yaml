@@ -1,0 +1,6 @@
+---
+restrict:
+  - breast:
+      type: mammaryGland
+  - thyroid:
+      type: thyroid

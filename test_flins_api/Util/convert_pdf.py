@@ -46,10 +46,11 @@ def parse(path):
             # 这里layout是一个LTPage对象 里面存放着 这个page解析出的各种对象 一般包括LTTextBox, LTFigure, LTImage, LTTextBoxHorizontal 等等 想要获取文本就获得对象的text属性，
             for x in layout:
                 if (isinstance(x, LTTextBoxHorizontal)):
-                    with open("D:/a.txt", 'a') as f:
+                    with open("E:/a.txt", 'a') as f:
                         result = x.get_text()
                         print(result)
                         f.write(result + '\n')
 
+
 if __name__ == '__main__':
-    parse("D:/test.pdf")
+    parse("E:/书籍/test.pdf")

@@ -2,15 +2,12 @@
 import unittest
 import json
 import requests
-from TestCase.gloVal import gloVal
+from TestCase.test_breast.StartEnd import unittest_StartEnd
 
 
 
 #获取测试题列表
-class qa_operlist(unittest.TestCase):
-    def setUp(self):
-        self.url = gloVal.BASE_URL
-        self.header = gloVal.HEADER
+class qa_operlist(unittest_StartEnd):
 
     '''正常参数-乳腺，sex=1，男性'''
     def test01(self):
@@ -20,38 +17,6 @@ class qa_operlist(unittest.TestCase):
         response = json.loads(r.text)
         print(r.text)
         self.assertEqual("0000",response["code"],msg=response["desc"])
-
-
-    '''正常参数-乳腺，sex=2，女性'''
-    def test02(self):
-        data = {"type": "mammaryGland", "sex": 2}
-        url = self.url + '/qa/operlist'
-        r = requests.post(url, data=json.dumps(data), headers=self.header)
-        response = json.loads(r.text)
-        print(r.text)
-        self.assertEqual("0000", response["code"], msg=response["desc"])
-        mg_female_data.mg_female_id = response["data"]["id"]
-
-
-    '''正确参数-甲状腺，sex=1'''
-    def test03(self):
-        data = {"type": "thyroid", "sex": 1}
-        url = self.url + '/qa/operlist'
-        r = requests.post(url, data=json.dumps(data), headers=self.header)
-        response = json.loads(r.text)
-        print(r.text)
-        self.assertEqual("0000", response["code"], msg=response["desc"])
-
-
-    '''正确参数-甲状腺，sex=2'''
-    def test04(self):
-        data = {"type": "thyroid", "sex": 2}
-        url = self.url + '/qa/operlist'
-        r = requests.post(url, data=json.dumps(data), headers=self.header)
-        response = json.loads(r.text)
-        print(r.text)
-        self.assertEqual("0000", response["code"], msg=response["desc"])
-
 
     '''错误参数-sex为空'''
     def test05(self):
@@ -97,12 +62,6 @@ class qa_operlist(unittest.TestCase):
         response = json.loads(r.text)
         print(r.text)
         self.assertEqual("1002", response["code"], msg=response["desc"])
-
-
-
-
-
-
 
 if __name__ == '__main__':
     unittest.main()

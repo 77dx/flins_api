@@ -3,12 +3,9 @@ import unittest
 import requests
 import json
 from TestCase.gloVal import gloVal
+from TestCase.test_breast.StartEnd import unittest_StartEnd
 
-class ev_count(unittest.TestCase):
-
-    def setUp(self):
-        self.url = gloVal.BASE_URL
-        self.header = gloVal.HEADER
+class ev_count(unittest_StartEnd):
 
     ''' 正常传参是甲状腺'''
     def test01(self):

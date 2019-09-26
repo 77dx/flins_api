@@ -2,9 +2,9 @@
 class gloVal():
 
     #c端访问路径
-    # BASE_URL = "http://192.168.5.111/customer"
+    BASE_URL = "http://192.168.5.111/customer"
     # BASE_URL = "http://api.flins.com.cn/customer"
-    BASE_URL = "http://192.168.5.38"
+    # BASE_URL = "http://192.168.5.38"
 
     #c端TOKEN
     C_TOKEN = "0f529682e96b446589c60239ea67fdba"
@@ -24,7 +24,6 @@ class gloVal():
     #BOSS_HEADER
     BOSS_HEADER = {'content-type': 'application/json','token':BOSS_TOKEN}
 
-    #
 
 
 
